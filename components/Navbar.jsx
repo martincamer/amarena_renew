@@ -70,7 +70,7 @@ function Navbar() {
 						className={`min-w-[84.5vw] min-h-[90.6vw]  fixed top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-five/90 z-10 p-10 transition-all duration-500 ease-out backdrop-blur-md  rounded-lg space-y-10 shadow-lg shadow-black/40`}
 					>
 						<Box className="flex flex-col space-y-10">
-							{navegacion.map(link => (
+							{NAVEGACION.map(link => (
 								<Link
 									className="uppercase text-gray-900 font-bold hover:text-gray-900 transition-all ease-out text-2xl"
 									key={link.titulo}
